@@ -45767,7 +45767,7 @@ A.CS.prototype={
 ah(){var s=null
 return new A.XF(A.b([new A.BH(s),new A.qz(s),new A.oH(s),new A.Qs(s)],t.p))}}
 A.XF.prototype={
-I(a){var s=null,r=this.e,q=this.d[r],p=A.b([A.a4u(A.cr(B.I7,s,s,s,s),"Home"),A.a4u(A.cr(B.I6,s,s,s,s),"History"),A.a4u(A.cr(B.HS,s,s,s,s),"History"),A.a4u(A.cr(B.HX,s,s,s,s),"Profile")],t.ur)
+I(a){var s=null,r=this.e,q=this.d[r],p=A.b([A.a4u(A.cr(B.I7,s,s,s,s),"Home"),A.a4u(A.cr(B.I6,s,s,s,s),"History"),A.a4u(A.cr(B.HS,s,s,s,s),"Test"),A.a4u(A.cr(B.HX,s,s,s,s),"Profile")],t.ur)
 return A.rS(s,s,q,new A.zM(p,new A.avX(this),r,B.aI,B.l,18,!0,s))}}
 A.avX.prototype={
 $1(a){var s=this.a
@@ -46426,8 +46426,8 @@ $S:5}
 A.axE.prototype={
 $1(a){var s,r=null,q=this.a,p=A.bk("Camera",r,r,r,r,r,r),o=$.pC()
 p=A.m_(!1,r,!0,25,A.pY(o,A.cr(B.HZ,B.l,B.ah,r,30),r,30),new A.axC(q,a),A.bk("Take a photo",r,r,r,A.c1(r,r,B.l,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r),p,r)
-s=A.bk("File Manager",r,r,r,r,r,r)
-return new A.bK(1/0,300,new A.bb(B.ko,A.fu(A.b([new A.bK(1/0,70,p,r),new A.bK(1/0,70,A.m_(!1,r,!0,25,A.pY(o,A.cr(B.I4,B.l,B.ah,r,30),r,30),new A.axD(q,a),A.bk("Pick PDF or Img file",r,r,r,A.c1(r,r,B.l,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r),s,r),r)],t.p),B.S,B.a0,B.ab,10),r),r)},
+s=A.bk("File/Img Manager",r,r,r,r,r,r)
+return new A.bK(1/0,200,new A.bb(B.ko,A.fu(A.b([new A.bK(1/0,70,p,r),new A.bK(1/0,70,A.m_(!1,r,!0,25,A.pY(o,A.cr(B.I4,B.l,B.ah,r,30),r,30),new A.axD(q,a),A.bk("Pick PDF or Img file",r,r,r,A.c1(r,r,B.l,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r),s,r),r)],t.p),B.S,B.a0,B.ab,10),r),r)},
 $S:132}
 A.axC.prototype={
 $0(){A.f1(this.b,!1).dG()
