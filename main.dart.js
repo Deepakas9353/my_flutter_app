@@ -45861,7 +45861,7 @@ A.DU.prototype={
 ak(){return A.aY7()}}
 A.Zk.prototype={
 I(a){var s,r,q,p,o,n,m=this,l=null,k="headerFont",j="Shop Details",i=t.p,h=A.ho(A.b([A.ui(B.a2,A.v6("icons/applogo.png",l),26.5,l),A.aZ("Copy..",l,l,l,A.bo(l,l,B.l,l,l,l,l,l,k,l,l,30,l,l,B.a5,l,l,!0,l,l,l,l,l,l,l,l),l,l)],i),B.R,B.X,B.ac,7),g=A.kb(B.a2,l,l,l)
-h=A.KD(A.b([new A.bn(B.kd,A.uZ(new A.dP(B.Z,0,0,$.pE===0?A.aZ("Login",l,l,l,A.bo(l,l,l,l,l,l,l,l,k,l,l,l,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l):A.aZ("LogOut",l,l,l,A.bo(l,l,l,l,l,l,l,l,k,l,l,l,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l),l),new A.axU(m,a),g),l)],i),l,l,h)
+h=A.KD(A.b([new A.bn(B.kd,A.uZ(new A.dP(B.Z,0.52,0,$.pE===0?A.aZ("Login",l,l,l,A.bo(l,l,l,l,l,l,l,l,k,l,l,l,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l):A.aZ("LogOut",l,l,l,A.bo(l,l,l,l,l,l,l,l,k,l,l,l,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l),l),new A.axU(m,a),g),l)],i),l,l,h)
 g=A.b([B.bM,B.a2],t.t_)
 s=A.f4(15)
 r=m.e
