@@ -45138,7 +45138,7 @@ ak(){return new A.WK()}}
 A.WK.prototype={
 aA(){this.aN()
 this.d=A.b([new A.DU(null),new A.AW(null),new A.Pr(null)],t.p)},
-I(a){var s,r,q,p=this,o=null,n="headerFont",m=A.cP(0,1000,0),l=p.d
+I(a){var s,r,q,p=this,o=null,n="headerFont",m=A.cP(0,600,0),l=p.d
 l===$&&A.a()
 m=A.a2Q(A.a2Q(l[p.e],m,A.aAH(),A.aAI()),B.dE,A.aAH(),A.aAI())
 l=p.e
