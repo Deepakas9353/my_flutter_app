@@ -8692,7 +8692,7 @@ aP5:function aP5(){},
 aa4(){var s=0,r=A.B(t.Q6),q,p=2,o=[],n,m,l,k,j,i,h,g,f
 var $async$aa4=A.w(function(a,b){if(a===1){o.push(b)
 s=p}for(;;)switch(s){case 0:h=A.aYO()
-g=A.iF("http://copywindows-env.eba-2psayihu.ap-south-1.elasticbeanstalk.com/mobile/shop-print-models/"+A.k($.Dn)+"/null")
+g=A.iF("http://copywindows-env.eba-2psayihu.ap-south-1.elasticbeanstalk.com/mobile/shop-print-models/"+A.k($.Dn)+"/18")
 p=4
 s=7
 return A.x(A.b1w(g,$.aUT),$async$aa4)
@@ -8742,7 +8742,7 @@ aaa(){var s=0,r=A.B(t.re),q,p=2,o=[],n,m,l,k,j,i,h,g
 var $async$aaa=A.w(function(a,b){if(a===1){o.push(b)
 s=p}for(;;)switch(s){case 0:h=new A.vz(null,null,null,null)
 p=4
-n=A.iF("http://copywindows-env.eba-2psayihu.ap-south-1.elasticbeanstalk.com/mobile/shop-price-tiers/"+A.k($.Dn)+"/null")
+n=A.iF("http://copywindows-env.eba-2psayihu.ap-south-1.elasticbeanstalk.com/mobile/shop-price-tiers/"+A.k($.Dn)+"/18")
 s=7
 return A.x(A.b1w(n,$.aUT),$async$aaa)
 case 7:m=b
@@ -20242,8 +20242,7 @@ k=e}}l=f}m=h}}if(j){if(n)p=o
 else{j=s?q:b
 o=(j==null?p.a(j):j).b
 p=o}A.cx(p)
-a=new A.ae(Math.max(A.jD(m),A.jD(k)),Math.max(A.jD(l),p))
-p=a
+p=new A.ae(Math.max(A.jD(m),A.jD(k)),Math.max(A.jD(l),p))
 break A}p=d}return p},
 bcA(a,b,c,d,e,f,g,h,i){var s,r=null,q=A.ai(),p=J.aWR(4,t.iy)
 for(s=0;s<4;++s)p[s]=new A.A2(r,B.aT,B.a3,new A.jx(1),r,r,r,r,B.al,r)
@@ -123604,3 +123603,4 @@ return}var s=document.scripts
 function onLoad(b){for(var q=0;q<s.length;++q){s[q].removeEventListener("load",onLoad,false)}a(b.target)}for(var r=0;r<s.length;++r){s[r].addEventListener("load",onLoad,false)}})(function(a){v.currentScript=a
 var s=A.aOW
 if(typeof dartMainRunner==="function"){dartMainRunner(s,[])}else{s([])}})})()
+//# sourceMappingURL=main.dart.js.map
