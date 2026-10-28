@@ -8692,7 +8692,7 @@ aP5:function aP5(){},
 aa4(){var s=0,r=A.B(t.Q6),q,p=2,o=[],n,m,l,k,j,i,h,g,f
 var $async$aa4=A.w(function(a,b){if(a===1){o.push(b)
 s=p}for(;;)switch(s){case 0:h=A.aYP()
-g=A.iF("http://copywindows-env.eba-2psayihu.ap-south-1.elasticbeanstalk.com/mobile/shop-print-models/"+A.k($.Dn)+"/"+$.aQ9)
+g=A.iF("https://2ow6bsq1m3.execute-api.ap-south-1.amazonaws.com/v1/api/mobile/shop-print-models/"+A.k($.Dn)+"/"+$.aQ9)
 p=4
 s=7
 return A.x(A.b1x(g,$.aUU),$async$aa4)
@@ -8742,7 +8742,7 @@ aaa(){var s=0,r=A.B(t.re),q,p=2,o=[],n,m,l,k,j,i,h,g
 var $async$aaa=A.w(function(a,b){if(a===1){o.push(b)
 s=p}for(;;)switch(s){case 0:h=new A.vz(null,null,null,null)
 p=4
-n=A.iF("http://copywindows-env.eba-2psayihu.ap-south-1.elasticbeanstalk.com/mobile/shop-price-tiers/"+A.k($.Dn)+"/"+$.aQ9)
+n=A.iF("https://2ow6bsq1m3.execute-api.ap-south-1.amazonaws.com/v1/api/mobile/shop-price-tiers/"+A.k($.Dn)+"/"+$.aQ9)
 s=7
 return A.x(A.b1x(n,$.aUU),$async$aaa)
 case 7:m=b
