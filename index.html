@@ -31,6 +31,23 @@
 
   <title>copyversionone</title>
   <link rel="manifest" href="manifest.json">
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+  function openRazorpayCheckout(optionsJson, onSuccess, onFailure, onDismiss) {
+    const options = JSON.parse(optionsJson);
+    options.handler = function (response) {
+      onSuccess(JSON.stringify(response));
+    };
+    options.modal = {
+      ondismiss: function () { onDismiss(); }
+    };
+    const rzp = new Razorpay(options);
+    rzp.on('payment.failed', function (response) {
+      onFailure(JSON.stringify(response.error));
+    });
+    rzp.open();
+  }
+</script>
 </head>
 <body>
   <!--
