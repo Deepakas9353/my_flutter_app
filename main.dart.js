@@ -8693,7 +8693,7 @@ aQk:function aQk(){},
 aaQ(){var s=0,r=A.C(t.Q6),q,p=2,o=[],n,m,l,k,j,i,h,g,f
 var $async$aaQ=A.w(function(a,b){if(a===1){o.push(b)
 s=p}for(;;)switch(s){case 0:h=A.aZZ()
-g=A.i_("http://localhost:5000/mobile/shop-print-models/"+A.j($.tp)+"/"+$.adA)
+g=A.i_("https://2ow6bsq1m3.execute-api.ap-south-1.amazonaws.com/v1/api/mobile/shop-print-models/"+A.j($.tp)+"/"+$.adA)
 p=4
 s=7
 return A.y(A.b2K(g),$async$aaQ)
@@ -8743,7 +8743,7 @@ aaW(){var s=0,r=A.C(t.re),q,p=2,o=[],n,m,l,k,j,i,h,g
 var $async$aaW=A.w(function(a,b){if(a===1){o.push(b)
 s=p}for(;;)switch(s){case 0:h=new A.vJ(null,null,null,null)
 p=4
-n=A.i_("http://localhost:5000/mobile/shop-price-tiers/"+A.j($.tp)+"/"+$.adA)
+n=A.i_("https://2ow6bsq1m3.execute-api.ap-south-1.amazonaws.com/v1/api/mobile/shop-price-tiers/"+A.j($.tp)+"/"+$.adA)
 s=7
 return A.y(A.b2K(n),$async$aaW)
 case 7:m=b
@@ -8787,7 +8787,7 @@ b=A.U(c).i("Z<1,aJ<i,H?>>")
 c=A.V(new A.Z(c,new A.aaZ(),b),b.i("a9.E"))
 A.dY("-----------"+A.a4(["name",j,"phoneNumber",i,"userId",h,"uid",g,"paymentMode",f,"totalAmount",e,"totalFiles",d,"fileMetaData",c],t.N,t.z).k(0))
 p=4
-n=A.i_("http://localhost:5000/mobile/place-order/"+A.j($.tp)+"/"+$.adA)
+n=A.i_("https://2ow6bsq1m3.execute-api.ap-south-1.amazonaws.com/v1/api/mobile/place-order/"+A.j($.tp)+"/"+$.adA)
 s=7
 return A.y(A.blV(n,$.b8_),$async$aaY)
 case 7:m=a2
