@@ -8453,7 +8453,7 @@ CJ:function CJ(){},
 a7T(){var s=0,r=A.w(t.Q6),q,p=2,o=[],n,m,l,k,j,i,h,g,f,e
 var $async$a7T=A.q(function(a,b){if(a===1){o.push(b)
 s=p}for(;;)switch(s){case 0:h=A.aUI()
-g=A.fH("http://localhost:5000/mobile/print-combinations")
+g=A.fH("https://2ow6bsq1m3.execute-api.ap-south-1.amazonaws.com/v1/api/mobile/print-combinations")
 f=A.a4(["shopId",$.Cp,"userId",$.Ps],t.N,t.z)
 p=4
 k=$.a82
@@ -8504,7 +8504,7 @@ a8_(){var s=0,r=A.w(t.gS),q,p=2,o=[],n,m,l,k,j,i,h,g,f,e,d
 var $async$a8_=A.q(function(a,b){if(a===1){o.push(b)
 s=p}for(;;)switch(s){case 0:h=t.ny
 g=new A.FQ(A.b([],h),A.b([],h))
-f=A.fH("http://localhost:5000/shop/get-shop-print-price")
+f=A.fH("https://2ow6bsq1m3.execute-api.ap-south-1.amazonaws.com/v1/api/shop/get-shop-print-price")
 e=$.Cp
 e.toString
 n=A.a4(["shopId",e],t.N,t.z)
@@ -8549,7 +8549,7 @@ b1H(a){var s=0,r=A.w(t.y),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$a7S=A.q(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:A.dA("=======================================")
 n=!1
-m=A.fH("http://localhost:5000/mobile/create-user")
+m=A.fH("https://2ow6bsq1m3.execute-api.ap-south-1.amazonaws.com/v1/api/mobile/create-user")
 p=4
 j=$.a82
 s=7
@@ -8582,7 +8582,7 @@ s=p}for(;;)switch(s){case 0:a2=t.N
 a3=A.o(a2,t.H3)
 a4=t.z
 p=4
-n=A.fH("http://localhost:5000/orders/share-order")
+n=A.fH("https://2ow6bsq1m3.execute-api.ap-south-1.amazonaws.com/v1/api/orders/share-order")
 i=B.c.cH(a6.b.a.a)
 h=B.c.cH(a6.c.a.a)
 g=$.Ps
@@ -31693,7 +31693,7 @@ var $async$aie=A.q(function(a,b){if(a===1){p.push(b)
 s=q}for(;;)switch(s){case 0:j=$.ds
 i=(j==null?$.ds=$.ii():j).iH("[DEFAULT]")
 A.dV(i,$.hj(),!0)
-o=A.fH("http://localhost:5000/mobile/get-user/"+A.k9(new A.fc(i)).gd8().a.c.a.a)
+o=A.fH("https://2ow6bsq1m3.execute-api.ap-south-1.amazonaws.com/v1/api/mobile/get-user/"+A.k9(new A.fc(i)).gd8().a.c.a.a)
 q=3
 s=6
 return A.x(A.bdR(o),$async$aie)
