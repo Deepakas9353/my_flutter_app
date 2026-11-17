@@ -31,12 +31,16 @@
 
   <title>copyversionone</title>
   <link rel="manifest" href="manifest.json">
-  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 <script>
   window.openRazorpayCheckout = function (options, onSuccess, onFailure) {
     options.handler = function (response) {
       onSuccess(JSON.stringify(response));
+    };
+    options.modal = {
+      ondismiss: function () {
+        onFailure(JSON.stringify({ description: 'Checkout closed by user' }));
+      }
     };
     var rzp = new Razorpay(options);
     rzp.on('payment.failed', function (response) {
