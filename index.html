@@ -32,22 +32,19 @@
   <title>copyversionone</title>
   <link rel="manifest" href="manifest.json">
   <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-<!-- <script>
-  function openRazorpayCheckout(optionsJson, onSuccess, onFailure, onDismiss) {
-    const options = JSON.parse(optionsJson);
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+  window.openRazorpayCheckout = function (options, onSuccess, onFailure) {
     options.handler = function (response) {
       onSuccess(JSON.stringify(response));
     };
-    options.modal = {
-      ondismiss: function () { onDismiss(); }
-    };
-    const rzp = new Razorpay(options);
+    var rzp = new Razorpay(options);
     rzp.on('payment.failed', function (response) {
       onFailure(JSON.stringify(response.error));
     });
     rzp.open();
-  }
-</script> -->
+  };
+</script>
 </head>
 <body>
   <!--
